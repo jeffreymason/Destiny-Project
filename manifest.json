@@ -1,19 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
-  "version": "1.0",
+  "name": "PlannerApp",
+  "description": "A planner! But better!!!",
+  "version": "0.01",
 
   "browser_action": {
-    "default_icon":   "./assets/icon.png",
+    "default_icon":   "assets/icon.png",
     "default_title":  "Open PlannerApp."
   },
   "background": {
     "scripts":    ["eventPage.js"],
     "persistent": false
   },
-  "permissions": [
-    "tabs"
-  ]
+  "permissions": []
 }
