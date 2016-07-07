@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name":         "PlannerApp",
+  "description":  "A planner! But better!!!",
+  "version":      "0.0.1",
+  "browser_action": {
+    "default_icon":   "assets/icon.png",
+    "default_title":  "Open PlannerApp."
+  },
+  "background": {
+    "scripts":    ["eventPage.js"],
+    "persistent": false
+  },
+  "permissions": []
+}
